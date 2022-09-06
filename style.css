@@ -1,0 +1,801 @@
+/*header nav start*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    width: 100%;
+    height: 300px;
+   
+    background-color: rgb(238, 233, 233);
+    position: sticky;
+    top: 0;
+ 
+
+    
+    
+}
+.nav{
+   width: 100%;
+   height: 60px;
+   background-color: rgb(236, 245, 245);
+  
+  
+  
+    
+}
+.nav .icon{
+position: absolute;
+margin-left: 100px;
+margin-top: 18px;
+
+
+
+}
+.nav .icon a{
+    
+ padding: 3px;
+ color:rgb(124, 117, 117);
+ line-height: 40px;
+}
+.nav .icon a i:hover {
+color: rgb(28, 158, 152);
+
+}
+
+.call2{
+position: absolute;
+top: 0;
+right: 0;
+
+display: flex;
+margin-right: 250px;
+justify-content: space-between;
+align-items: center;
+
+  
+}
+.call2 a{
+    padding: 5px;
+    position: relative;
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgba(175, 165, 165,0.9);
+}
+.call2 a i{
+    line-height: 40px;
+}
+.call3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    display: flex;
+    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center; 
+  
+}
+.call3 a{
+    padding: 5px;
+    position: relative;
+    margin-top: 10px;
+}
+.call3 a i{
+  color: rgba(122, 117, 117,0.9); 
+  line-height: 40px; 
+}
+
+.call3 a button{
+     background-color: black;
+     color: rgb(248, 242, 242);
+     cursor: pointer;
+}
+.call3 a button:hover{
+    color: blueviolet;
+    background-color: brown;
+}
+
+
+.header1{
+    
+   width: 100%;
+  
+}
+
+
+.header1 a img{
+   margin-left: 100px;
+   margin-top: 80px;
+    font-size: 15px;
+
+}
+.header1 a ul{
+list-style: none;
+text-decoration: none;
+text-align: center;
+margin-left: 350px;
+margin-top: -60px;
+
+
+}
+
+.header1 a  ul li{
+   text-decoration: none;
+   list-style: none;
+  float: left;
+  padding: 8px;
+margin-top: -10px;
+color: rgba(72, 77, 77, 0.9);
+line-height: 60px;
+
+  
+    
+}
+.header1 a button{
+    margin-left: 90px;
+    border: 1px solid rgb(0, 247, 255);
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 15px 30px;
+    background-color: aqua;
+    color: rgb(23, 16, 126);
+}
+.header1 a button:hover{
+    color: rgb(212, 223, 216);
+    background-color: rgb(23, 16, 126);
+}
+/*header nav end*/
+
+/*section 1 start*/
+section{
+    margin: 0;
+    top: -25px;
+    
+    width: 100%;
+    height: 460px;
+   
+    position: relative;
+    background: url(cover2.webp) no-repeat rgb(4, 183, 214) ;
+    background-size: cover ;
+    background-position: right;
+    padding: 160px 100px;
+   top: 0;
+
+
+}
+section .bcr{
+ width: 100%;
+  overflow: hidden;
+    position: relative;
+   
+
+
+
+}
+.bcr h1{
+font-size: 50px;
+color: white;
+margin-left: 100px;
+margin-top: 120px;
+
+
+}
+.bcr h5{
+    font-size: 25px;
+    color: white;
+    margin-left: 100px;
+    margin-top: -40px;
+
+}
+
+ .ser1  {
+    width: 32%;
+    height: 300px;
+    background-color:rgb(26, 47, 51); 
+    position: absolute;
+    margin-top: 750px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    justify-content: space-around;
+
+
+
+
+
+}
+.ser1 i{
+    color: rgb(240, 220, 220);
+    margin-top: 20px;
+    font-size: 40px;
+}
+.ser1 h1{
+    font-size: 30px;
+    color:rgb(240, 220, 220) ;
+}
+.ser1 p{
+font-size: 20px;
+    color:rgb(240, 220, 220) ;
+    width: 80%;
+    margin-left: 35px;
+  
+}
+.ser1 a button{
+    color:rgb(240, 220, 220) ; 
+    background-color:rgb(5, 201, 201);
+    padding: 10px 50px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.ser1 a button:hover{
+    color: white;
+    background-color: rgb(85, 68, 68);
+}
+.ser2 {
+    width: 32%;
+    height: 300px;
+    background-color:rgb(24, 164, 192); 
+    position: absolute;
+    
+    text-align: center;
+    margin-left: 340px;
+    margin-top: 340px;
+
+}
+.ser2 i{
+    color: rgb(240, 220, 220);
+    margin-top: 20px;
+    font-size: 40px;
+}
+.ser2 h1{
+    font-size: 30px;
+    color:rgb(240, 220, 220) ;
+}
+.ser2 p{
+font-size: 20px;
+    color:rgb(240, 220, 220) ;
+    width: 80%;
+    margin-left: 35px;
+}
+.ser2 a button{
+    color:rgb(240, 220, 220) ; 
+    background-color:rgb(5, 201, 201);
+    padding: 10px 50px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.ser2 a button:hover{
+    color: white;
+    background-color: rgb(85, 68, 68);
+}
+.ser3{
+width: 33%;
+height: 300px;
+background-color: rgb(0, 255, 128);
+margin-left: 816px;
+margin-top: 340px;
+text-align: center;
+
+}
+.ser3 i{
+    color: rgb(240, 220, 220);
+    margin-top: 20px;
+    font-size: 40px;
+}
+.ser3 h1{
+    font-size: 30px;
+    color:rgb(240, 220, 220) ;
+}
+.ser3 p{
+font-size: 20px;
+    color:rgb(240, 220, 220) ;
+    width: 80%;
+    margin-left: 35px;
+}
+.ser3 a button{
+    color:rgb(240, 220, 220) ; 
+    background-color:rgb(5, 201, 201);
+    padding: 10px 50px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.ser3 a button:hover{
+    color: white;
+    background-color: rgb(85, 68, 68);
+}
+
+
+
+
+/*section 1 end*/
+/*section 2 start*/
+.servicearea{
+width: 100%;
+height: 600px;
+background-color: rgb(223, 238, 238);
+margin-top: -130px;
+
+ box-sizing: border-box;
+
+
+}
+.servicearea .img22{
+    position: relative;
+    margin-top: 400px;
+    margin-left: 40px;
+  
+
+}
+
+
+.servicearea .text000{
+    position: relative;
+    width: 30%;
+    height: 100px;
+    margin-left: 800px;
+    margin-top: -400px;
+
+}
+.servicearea .text000 h5{
+    font-size: 20px;
+    text-align: center;
+    color: rgba(125, 155, 185, 0.9);
+}
+.servicearea .text000 h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.servicearea .text000 p{
+    text-align: center;
+    color: rgba(160, 135, 135, 0.7);
+    margin-top: 20px;
+}
+.servicearea .text000 ul{
+list-style: upper-alpha;
+margin-top: 20px;
+
+   
+}
+.servicearea .text000 ul li{
+    color: rgba(0, 0, 0, 0.726);
+    margin-top: 5px;
+}
+.servicearea .text000 a button{
+margin-left: 110px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 255, 255);
+    color: rgb(48, 43, 43);
+    padding: 8px 26px;
+    margin-top: 20px;
+}
+.servicearea .text000 a button:hover{
+    color: blue;
+    background-color:aquamarine ;
+}
+
+
+/*section 2 end*/
+
+/*section 3 start*/
+.main{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: rgb(124, 117, 117);
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.main .hanifa{
+
+}
+.main .hanifa h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main .hanifa p{
+text-align: center;
+    color: rgba(218, 238, 238,0.7);
+    width: 200px;
+    margin: 0 auto;
+margin-top: -20px;
+    
+}
+.myServices {
+width: 100%;
+height: auto;
+flex-wrap: wrap;
+ display: flex;
+ margin: 0 auto;
+justify-content: space-around;
+margin-top: 80px;
+text-align: center;
+
+}
+.myServices .pricing table{
+ width: 362px;
+ height: 240ox;
+ padding-bottom: 60px;
+ text-align: center;
+
+  
+
+}
+.myServices h2{
+    color: rgba(15, 15, 15,0.9);
+
+}
+
+
+
+
+.myServices img{
+
+  transition: all ease-in-out 0.5s;
+}
+.myServices img:hover{
+    transform: scale(1.1);
+}
+
+.myServices a button{
+    padding: 10px 40px;
+    background-color: rgb(24, 164, 192);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.myServices a button:hover{
+    color: white;
+    background-color: black;
+}
+.imgcover{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url(cover3.webp);
+    background-repeat: no repeat;
+    background-position: top;
+    background-size: cover;
+}
+.imgcover p{
+position:absolute;
+    color: rgb(83, 79, 79);
+  margin-left:300px ;
+  margin-top: 350px;
+ width: 500px;
+ font-size: 20px;
+
+}
+.imgcover h2{
+    position: absolute;
+    color:rgb(94, 83, 83);
+    margin-left: 300px;
+    margin-top: 450px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+/*section 3 end*/
+/*section 4 start*/
+.head{
+    margin: 0;
+    padding: 0;
+  
+    background-color: rgb(236, 211, 211);
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+  
+}
+.head a{
+    text-decoration: none;
+}
+
+.head ul{
+    list-style: none;
+  text-align: center;
+  display: flex;
+
+}
+.head ul li{
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 25px;
+    color: rgba(26, 25, 25,0.7);
+}
+.look{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+text-align: center;
+    margin-top: 150px;
+
+
+}
+.look h3{
+    position: absolute;
+  
+    margin-left: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    color: rgba(29, 26, 26,0.6);
+}
+.look p{
+    margin-top:50px;
+    position: absolute;
+    width: 550px;
+    margin-left: 110px;
+    color: rgb(190, 19, 19);
+
+}
+.look i{
+    position: absolute;
+    font-size: 50px;
+    background-color: aqua;
+    color: white;
+ margin-top: -60px;
+ margin-left: 210px;
+ padding: 5px 10px;
+ border: 1px solid green;
+ border-radius: 50%;
+}
+.look img{
+margin-left: 550px;
+margin-top: -110px;
+}
+
+   
+
+.Doctors{
+    
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    overflow: hidden;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   margin: 0 auto;
+   padding: 5px;
+  display: flex;
+  border: 1px solid rgb(238, 233, 233);
+    
+}
+.Doctors div{
+    width: 264px;
+   height: 250px;
+   margin-top: 20px;
+   color: rgb(29, 29, 34);
+
+
+
+  
+
+}
+
+
+.Doctors img{
+   margin-left: 50px;
+    width: 100%;
+    height: auto;
+ 
+
+ 
+}
+.Doctors img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+ .Doctors h1{
+  font-size: 25px;
+  margin-top: 100px;
+  margin-left: 20px;
+  color: rgb(0,0,0,0.8);
+
+}
+.Doctors h3{
+    text-align: center;
+    color: rgba(96, 92, 97, 0.7);
+}
+.Doctors h3:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.Doctors span{
+margin-left: 80px;
+    position: absolute;
+    margin-top: -20px;
+    color: rgb(0,0,0,0.5);
+
+}
+.Doctors span:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+
+
+/*section 4 end*/
+/*section 5 start*/
+.bacgr{
+margin: 0;
+padding: 0;
+
+    width: 100%;
+    height: 500px;
+    background-color: rgb(230, 240, 238);
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    
+
+}
+.bacgr .van{
+width: 50%;
+height: auto;
+background: url(backgro1.webp) no-repeat   ;
+
+
+
+
+}
+.van h2{
+    margin-top: 130px;
+    color: #fff;
+}
+.van p{
+    color: #fff;
+}
+.van a button{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -60px;
+    border: 1px solid white;
+    padding: 20px 30px;
+   background-color: aqua;
+    cursor: pointer;
+    color: rgb(172, 18, 18);
+}
+.van a button:hover{
+    background-color: #267375;
+    color: black;
+}
+
+.bacgr .van2{
+    width: 50%;
+height: auto;
+
+background: url(bacgro2.webp) no-repeat   ;
+}
+.van2 h2{
+    margin-top: 130px;
+}
+.van2 h2{
+
+    color: #fff;
+}
+.van2 p{
+    color: #fff;
+}
+.van2 a button{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -60px;
+    border: 1px solid white;
+    padding: 10px 10px;
+   background-color: aqua;
+    cursor: pointer;
+    color: rgb(172, 18, 18);
+}
+.van2 a button:hover{
+    background-color: #267375;
+    color: black;
+}
+
+
+/*section 5 end*/
+
+
+
+
+
+/*footer start*/
+footer{
+  position: absolute;
+    width: 100%;
+   height: auto;
+    background-color: rgb(59, 52, 52);
+
+
+
+}
+ footer .foot{
+bottom: 0;
+color: rgba(241, 230, 230,0.7);
+display: flex; 
+position: relative;
+margin-left: 80px;
+margin-top: 50px;
+width: 95%;
+height: auto;
+padding: 10px;
+font-size: 16px;
+justify-content: space-around;
+ }
+ .fig1  {
+width: 300px;
+height: auto;
+
+ }
+ .fig1 img{
+  cursor: pointer;
+  color: #fff;
+ }
+ .fig1 i{
+    padding: 5px;
+    color: rgb(240, 226, 226);
+    cursor: pointer;
+    border: 1px solid rgb(24, 23, 23);
+    background-color: #267375;
+ }
+
+
+ .Dep2{
+    width: 250px;
+    height: auto;
+ }
+ .Dep2 ul li {
+list-style: none;
+line-height: 40px;
+ }
+
+ .useful{
+    width: 250px;
+    height: auto;
+ }
+ .useful ul li{
+    list-style: none;
+    line-height: 40px;
+ }
+ .address{
+    width: 200px;
+    height: auto;
+    margin-right: 150px;
+ }
+ .address h6{
+    font-size: 18px;
+ }
+
+
+
+footer p{
+  margin-bottom: 0;
+color: rgb(50, 194, 81);
+line-height: 80px;
+text-align: center;
+justify-content: center;
+align-items: center;
+background-color: black;
+width: 100%;
+height: auto;
+font-size: 40px;
+overflow: hidden;
+
+padding-bottom: 90px;
+}
+
+/*footer end*/
+
